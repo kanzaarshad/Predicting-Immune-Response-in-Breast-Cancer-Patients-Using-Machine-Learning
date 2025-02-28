@@ -1,3 +1,4 @@
+
 The dataset includes:
 - **Immune Checkpoint Markers**: PD-L1, CTLA-4 expression levels.
 - **Immune Cell Populations**: CD4+, CD25+ T cells.
@@ -22,3 +23,9 @@ We train several machine learning models, including:
 - **Neural Networks**
 
 Evaluation is performed using Accuracy, Precision, Recall, F1-Score, and AUC-ROC.
+Installation
+To set up the environment, clone the repository and install dependencies:
+```bash
+git clone https://github.com/yourusername/immune-response-prediction.git
+cd immune-response-prediction
+pip install -r requirements.txt
